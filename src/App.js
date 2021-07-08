@@ -13,8 +13,6 @@ function App() {
     <Router>
       <header className="container-fluid bg-info p-2">
         <div className="container">
-          {/* LINK -> דואג ללינק שלא מרפרש את הדפדפן מחליף
-          את התגית איי */}
           <Link to="/">Home</Link>
           <Link to="/cars">Cars</Link>
           <Link to="/fruits/banana">Banana</Link>
@@ -27,7 +25,6 @@ function App() {
       </header>
       <div className="App">
         <Switch>
-          {/* exact -> שחייב להיות בדיוק אותה כתותב */}
           <Route exact path="/" component={AppPixa} />
           <Route exact path="/cars" component={AppCar} />
           <Route exact path="/fruits/:idFruits" component={AppFruitsParams} />
@@ -36,8 +33,6 @@ function App() {
           <Route exact path="/tasks" component={AppTasks} />
           <Route exact path="/shop" component={AppShop} />
         </Switch>
-        {/* <AppPixa /> */}
-        {/* <AppCar /> */}
       </div>
     </Router>
   );
