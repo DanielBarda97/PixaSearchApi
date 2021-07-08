@@ -1,8 +1,8 @@
 import './App.css';
-import AppCar from './comps_hw/appCar';
-import AppPixa from './comps_hw/appPixa';
+import AppCar from './comps_pixa/appCar';
+import AppPixa from './comps_pixa/appPixa';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import AppFruitsParams from './comps_hw/appFruitsParams';
+import AppFruitsParams from './comps_pixa/appFruitsParams';
 import Counter from './comps_hooks/counter';
 import AppDate from './comps_hooks/appDate';
 import AppTasks from './comps_tasks_hooks/appTasks';
